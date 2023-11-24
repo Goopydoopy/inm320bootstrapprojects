@@ -1,0 +1,29 @@
+#profile {
+    border-radius: 200px;
+}
+
+
+
+@media only screen and (max-width:560px) {
+    #sidebar {
+        display: none;
+    }
+
+    #fourcardrow {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #lastsection {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #iconssearchnoti {
+        display: none;
+
+    }
+
+    
+}
+
