@@ -1,7 +1,32 @@
 #profile {
     border-radius: 200px;
 }
+/*#fourcardrow turns blue when hovered over*/
+#fourcardrow .card {
+    transition: border-color 0.3s ease; /* Smooth transition effect */
+  }
+  
+  #fourcardrow .card:hover {
+    border-color: blue; /* Change border color on hover */
+    cursor: pointer; /* Show pointer on hover */
+  }
+  
+  #fourcardrow .card:hover * {
+    color: blue !important/*priorityz*/; /* Change text color to blue on hover */
+  }
+  /*#lastsection turns blue when hovered over*/
+#lastsection .card {
+  transition: border-color 0.3s ease; /* Smooth transition effect */
+}
 
+#lastsection .card:hover {
+  border-color: blue; /* Change border color on hover */
+  cursor: pointer; /* Show pointer on hover */
+}
+
+#lastsection .card:hover * {
+  color: blue !important; /* Change text color to blue on hover */
+}
 
 
 @media only screen and (max-width:560px) {
